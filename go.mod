@@ -1,14 +1,12 @@
 module github.com/checkr/states-language-cadence
 
-go 1.13.1
+go 1.16
 
 require (
 	github.com/anmitsu/go-shlex v0.0.0-20161002113705-648efa622239 // indirect
 	github.com/apache/thrift v0.12.0 // indirect
 	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b // indirect
-	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd // indirect
 	github.com/coinbase/step v1.0.1-beta
-	github.com/crossdock/crossdock-go v0.0.0-20160816171116-049aabb0122b // indirect
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
 	github.com/fatih/structtag v1.0.0 // indirect
 	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
@@ -29,7 +27,6 @@ require (
 	github.com/samuel/go-thrift v0.0.0-20190219015601-e8b6b52668fe // indirect
 	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
 	github.com/stretchr/testify v1.4.0
-	github.com/uber-go/atomic v1.4.0 // indirect
 	github.com/uber-go/mapdecode v1.0.0 // indirect
 	github.com/uber-go/tally v3.3.12+incompatible
 	github.com/uber/jaeger-client-go v2.19.0+incompatible // indirect
@@ -37,9 +34,6 @@ require (
 	github.com/uber/tchannel-go v1.15.0 // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/cadence v0.9.2
-	go.uber.org/dig v1.7.0 // indirect
-	go.uber.org/fx v1.9.0 // indirect
-	go.uber.org/goleak v0.10.0 // indirect
 	go.uber.org/multierr v1.2.0 // indirect
 	go.uber.org/net/metrics v1.1.0 // indirect
 	go.uber.org/thriftrw v1.20.0 // indirect
